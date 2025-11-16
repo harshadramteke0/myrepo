@@ -3,7 +3,7 @@ const axios = require("axios");
 let cache = { reviews: null, lastUpdate: null };
 
 module.exports = async (req, res) => {
-  const GOOGLE_API_KEY = process.env.AIzaSyBP_HfI7dz5zv3sXT0CxaHxNJqtI9r9uw0; // <-- Add this in Vercel dashboard
+  const GOOGLE_API_KEY = process.env.AIzaSyCC0Abe1t8HTr4anbyHBnAka5UchfiqBLM; // <-- Add this in Vercel dashboard
   const PLACE_ID = process.env.ChIJ3dU3tpa_wjsRLnikJj7ujMU;            // <-- Add this too
 
   const now = Date.now();
