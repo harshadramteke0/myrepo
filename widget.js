@@ -1,5 +1,5 @@
 (function () {
-  const API_URL = "https://github.com/harshadramteke0/myrepo.git"; // <--- Replace with your backend URL
+  const API_URL = "https://harshadramteke0.github.io/myrepo/"; // <--- Replace with your backend URL
 
   const container = document.getElementById("google-reviews-widget");
 
