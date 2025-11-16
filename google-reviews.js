@@ -4,7 +4,7 @@ let cache = { reviews: null, lastUpdate: null };
 
 module.exports = async (req, res) => {
   const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY; // <-- Add this in Vercel dashboard
-  const PLACE_ID = process.env.PLACE_ID;            // <-- Add this too
+  const PLACE_ID = process.env.ChIJ3dU3tpa_wjsRLnikJj7ujMU;            // <-- Add this too
 
   const now = Date.now();
   const oneWeek = 7 * 24 * 60 * 60 * 1000;
